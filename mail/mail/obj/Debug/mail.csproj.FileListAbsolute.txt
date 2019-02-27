@@ -8,3 +8,6 @@ C:\Users\Maxim\source\repos\mail\mail\obj\Debug\mail.pdb
 C:\Users\Maxim\source\repos\mail\mail\bin\Debug\OpenPop.dll
 C:\Users\Maxim\source\repos\mail\mail\bin\Debug\OpenPop.xml
 C:\Users\Maxim\source\repos\mail\mail\obj\Debug\mail.csproj.CopyComplete
+C:\Users\Maxim\source\repos\mail\mail\bin\Debug\ImapX.dll
+C:\Users\Maxim\source\repos\mail\mail\bin\Debug\Mail.dll
+C:\Users\Maxim\source\repos\mail\mail\bin\Debug\Mail.xml
