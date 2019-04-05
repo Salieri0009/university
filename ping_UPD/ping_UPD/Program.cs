@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Diagnostics;
 
 public class SimplePing
 {
@@ -30,6 +31,8 @@ public class SimplePing
         packet.Checksum = chcksum;
 
         host.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReceiveTimeout, 3000);
+        var watch = new Stopwatch();
+        watch.Start();
         host.SendTo(packet.getBytes(), packetsize, SocketFlags.None, iep);
         try
         {
@@ -42,6 +45,7 @@ public class SimplePing
             return;
         }
         ICMP response = new ICMP(data, recv);
+        var time = watch.ElapsedMilliseconds;
         Console.WriteLine("response from: {0}", ep.ToString());
         Console.WriteLine("  Type {0}", response.Type);
         Console.WriteLine("  Code: {0}", response.Code);
@@ -51,6 +55,7 @@ public class SimplePing
         Console.WriteLine("  Sequence: {0}", Sequence);
         string stringData = Encoding.ASCII.GetString(response.Message, 4, response.MessageSize - 4);
         Console.WriteLine("  data: {0}", stringData);
+        Console.WriteLine("  time: {0} ms", time);
 
         Console.ReadKey();
         host.Close();
