@@ -1,0 +1,10 @@
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\bin\Debug\ping_UPD.exe.config
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\bin\Debug\ping_UPD.exe
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\bin\Debug\ping_UPD.pdb
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\obj\Debug\ping_UPD.csprojAssemblyReference.cache
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\obj\Debug\ping_UPD.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\obj\Debug\ping_UPD.exe
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\obj\Debug\ping_UPD.pdb
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\bin\Debug\NLog.dll
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\bin\Debug\NLog.xml
+C:\Users\Maxim\source\repos\ping_UPD\ping_UPD\obj\Debug\ping_UPD.csproj.CopyComplete
